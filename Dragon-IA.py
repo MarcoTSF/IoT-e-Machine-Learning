@@ -30,6 +30,21 @@ def ouvir_microfone():
 
         elif "Excel" in frase:
             os.system("start Excel.exe")
+
+        elif "Word" in frase:
+            os.system("start WINWORD.EXE")
+
+        elif "PowerPoint" in frase:
+            os.system("start POWERPNT.EXE")
+
+        elif "Notepad" in frase:
+            os.system("start notepad++.exe")
+
+        elif "Microsoft Edge" in frase:
+            os.system("start msedge.exe")
+
+        elif "Microsoft visio" in frase:
+            os.system("start VISIO.EXE")
         
         #Retorna a frase pronunciada
         print("Você disse: " + frase)
